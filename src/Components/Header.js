@@ -2,8 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 const ContainHeader = styled.div`
-border:solid red;
-
 h1{
     font-size:2vw;
 }

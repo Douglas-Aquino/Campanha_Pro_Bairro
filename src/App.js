@@ -22,13 +22,27 @@ const GlobalStyle = createGlobalStyle`
 }
 `
 const Contain = styled.div`
-border:solid blue;
 padding:0 5vw;
 
 ul{
   list-style: none;
   
 }
+`
+const ContainLink = styled.div`
+width:10vw;
+margin-top:2vw;
+font-size:1.2vw;
+text-align: center;
+background-color:#74B238;
+border-radius:10px;
+
+img{
+  width:8vw;
+}
+a{
+  color:white;
+} 
 
 `
 
@@ -42,8 +56,9 @@ export default class Home extends React.Component{
       <Router>
         <ul>
           <li>
-            <Link to="/">Home</Link>
-            <Link to="CardOne">Bla</Link>
+            <Link to="/">Voltar</Link>
+            <ContainLink> <Link to="CardOne">1. Meio ambiente <img src="https://www.solosengineering.com.br/wp-content/uploads/2020/01/solo-eng-icone-solu%C3%A7%C3%B5es-meio-ambiente.png" alt=""/> </Link></ContainLink>
+             
           </li>
         </ul>
 
