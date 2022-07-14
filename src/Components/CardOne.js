@@ -3,13 +3,16 @@ import styled from "styled-components";
 
 const ContainOne = styled.div`
 margin-top:5vw;
+width:88vw;
+height:50vw;
 `
 const Intro = styled.div`
+width:100%;
 height:20vw;
-background-color:#74B238;
 display: flex;  
 justify-content: space-around;
 align-items: center;
+background-color:#238618;
 color:white;
 
 img{
@@ -17,11 +20,7 @@ img{
 }
 
 h2{
-    font-size:3vw;
-}
-h1{
-    font-weight: 300;
-    font-size:5vw;
+    font-size:4vw;
 }
 `
 const Objetivos = styled.div`
@@ -40,7 +39,6 @@ export default function CardOne(){
         <ContainOne>
             <Intro>
                 <div>
-                  <h1>1</h1>
                   <h2>Meio ambiente</h2>  
                 </div>
                 <div>
@@ -49,7 +47,7 @@ export default function CardOne(){
             </Intro>
             <Objetivos>
                 <p>1.1 Descutir maneiras com os habitantes do bairro de Santa Teresa,para incentiver boas praticas e cuidado com seu habiente. </p>
-                <p>1.2 Será construido um movimento social para ensinar crianças e adultos á tratar seu lixo e novas lixeiras de descarte seram alocadoas no Bairro de Santa Teresa. </p>
+                <p>1.2 Será construido um movimento social para ensinar crianças e adultos á tratar seu lixo e novas lixeiras de descarte seram alocadas no Bairro de Santa Teresa. </p>
                 <p>1.3 Será feito uma análise no bairro para detectar boeirros e valas com algum tipo de defeito.</p>
                 <p>1.4 Haverá uma análise para detectar casas em situção de emergência e os cidadões que lá habitam seram realocados.</p>
                 <p>1.5 Será construido uma ciclovia em toda região para amenizar o uso de carro.</p>
