@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Campanha_Pro_Bairro/static/css/main.e6c13ad2.css",
+    "main.js": "/Campanha_Pro_Bairro/static/js/main.79eca6e0.js",
+    "static/js/787.1d3c0121.chunk.js": "/Campanha_Pro_Bairro/static/js/787.1d3c0121.chunk.js",
+    "index.html": "/Campanha_Pro_Bairro/index.html",
+    "main.e6c13ad2.css.map": "/Campanha_Pro_Bairro/static/css/main.e6c13ad2.css.map",
+    "main.79eca6e0.js.map": "/Campanha_Pro_Bairro/static/js/main.79eca6e0.js.map",
+    "787.1d3c0121.chunk.js.map": "/Campanha_Pro_Bairro/static/js/787.1d3c0121.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.79eca6e0.js"
+  ]
+}
