@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const ContainOne = styled.div`
+const Contain = styled.div`
 margin-top:5vw;
 width:88vw;
 height:50vw;
@@ -36,10 +36,10 @@ p{
 export default function CardOne(){
     return(
         <>
-        <ContainOne>
+        <Contain>
             <Intro>
                 <div>
-                  <h2>Meio ambiente</h2>  
+                  <h2>Meio Ambiente</h2>  
                 </div>
                 <div>
                     <img src="https://www.solosengineering.com.br/wp-content/uploads/2020/01/solo-eng-icone-solu%C3%A7%C3%B5es-meio-ambiente.png" alt=""/>
@@ -53,7 +53,7 @@ export default function CardOne(){
                 <p>1.5 Será construido uma ciclovia em toda região para amenizar o uso de carro.</p>
             </Objetivos>
 
-        </ContainOne>
+        </Contain>
         </>
     )
 }
