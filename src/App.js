@@ -179,12 +179,13 @@ img{
 `
 
 const QuardContainLink = styled.div`
-border:solid blue;
 width:85vw;
 height:15vw;
 display:flex;
 align-items:center;
 justify-content:space-around;
+
+
 `
 
 export default class Home extends React.Component{
@@ -199,29 +200,29 @@ export default class Home extends React.Component{
           <li>
             <Link to="/"><p>Voltar</p></Link>
             <QuardContainLink>
-              <ContainLink> 
-              <Link to="CardOne"> Meio Ambiente <img src="https://www.solosengineering.com.br/wp-content/uploads/2020/01/solo-eng-icone-solu%C3%A7%C3%B5es-meio-ambiente.png" alt="Logo hambiental"/> </Link>
-              </ContainLink>
+                <ContainLink> 
+                <Link to="CardOne"> Meio Ambiente <img src="https://www.solosengineering.com.br/wp-content/uploads/2020/01/solo-eng-icone-solu%C3%A7%C3%B5es-meio-ambiente.png" alt="Logo hambiental"/> </Link>
+                </ContainLink>
 
-              <ContainLinkTow> 
-              <Link to="Cardtwo"> Transporte <img src="https://autoescolasantamonica.com.br/wp-content/uploads/2013/05/icone-carro-branco-300x208.png" alt="Logo"/> </Link>
-              </ContainLinkTow>
+                <ContainLinkTow> 
+                <Link to="Cardtwo"> Transporte <img src="https://autoescolasantamonica.com.br/wp-content/uploads/2013/05/icone-carro-branco-300x208.png" alt="Logo"/> </Link>
+                </ContainLinkTow>
 
-              <ContainLinkthree> 
-              <Link to="CardThree">Segurança <img src="https://primealarms.com.br/img/icones/sirene.png" alt="Icone de seguraça"/> </Link>
-              </ContainLinkthree>
+                <ContainLinkthree> 
+                <Link to="CardThree">Segurança <img src="https://primealarms.com.br/img/icones/sirene.png" alt="Icone de seguraça"/> </Link>
+                </ContainLinkthree>
 
-              <ContainLinkFour> 
-              <Link to="CardFour">Moradia<img src="https://cdn-ccncp.nitrocdn.com/nISmpRTGzsHDbbtTrlOlkGGGOUgColnA/assets/static/optimized/rev-8cda03f/wp-content/uploads/2021/02/Aplicacoes_03.png" alt="Icone de casa"/> </Link>
-              </ContainLinkFour>
+                <ContainLinkFour> 
+                <Link to="CardFour">Moradia<img src="https://cdn-ccncp.nitrocdn.com/nISmpRTGzsHDbbtTrlOlkGGGOUgColnA/assets/static/optimized/rev-8cda03f/wp-content/uploads/2021/02/Aplicacoes_03.png" alt="Icone de casa"/> </Link>
+                </ContainLinkFour>
 
-              <ContainLinkFive> 
-              <Link to="CardFive">Progetos Sociais<img src="https://ingresso.unifesp.br/images/institutional/pattern/icons/icone_refugiados_branco.png" alt="Icone de boneco coberto por uma par de maões"/> </Link>
-              </ContainLinkFive>
+                <ContainLinkFive> 
+                <Link to="CardFive">Progetos Sociais<img src="https://ingresso.unifesp.br/images/institutional/pattern/icons/icone_refugiados_branco.png" alt="Icone de boneco coberto por uma par de maões"/> </Link>
+                </ContainLinkFive>
 
-              <ContainLinkSix> 
-              <Link to="CardSix">Bem-Estar<img src="https://static.wixstatic.com/media/459125_95abf1bd53f04d2fb6fc4e3eea2fcb27~mv2.png/v1/fill/w_560,h_586,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ICONE%20BRANCO%20%20PNG.png" alt="Icone de saúde"/> </Link>
-              </ContainLinkSix>
+                <ContainLinkSix> 
+                <Link to="CardSix">Bem-Estar<img src="https://static.wixstatic.com/media/459125_95abf1bd53f04d2fb6fc4e3eea2fcb27~mv2.png/v1/fill/w_560,h_586,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ICONE%20BRANCO%20%20PNG.png" alt="Icone de saúde"/> </Link>
+                </ContainLinkSix>
             </QuardContainLink>
            
           </li>
