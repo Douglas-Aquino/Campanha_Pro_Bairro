@@ -9,7 +9,7 @@ import CardFive from "./Components/CardFive";
 import CardSix from "./Components/CardSix";
 
 //Estilos
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { createGlobalStyle } from "styled-components";
 
 //Comandos
@@ -186,12 +186,44 @@ justify-content:space-around;
 
 
 `
+const Animar = keyframes`
+0%{
+  transform: rotate(10px);
+  left: 60%;
+  border: solid pink;
+  background-color:green;
+}
+25%{
+  top:2vw;
+  background-color:blue;
+  border: solid pink;
+ 
+}
+50%{
+  background-color:pink;
+  border: solid blue;
+}
+75%{
+  background-color:purple;
+  border: solid blue;
+ 
+}
+
+100%{
+  background-color:red;
+  border: solid red;
+ 
+}
+`
 const ImgFooter = styled.div`
 width:100%;
 height:25vw;
 display:flex;
 justify-content:center;
+animation: ${Animar} 2s linear  infinite;
 `
+
+
 export default class Home extends React.Component{
   render(){
     return(
