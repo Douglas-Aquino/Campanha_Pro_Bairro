@@ -177,7 +177,6 @@ img{
   transition:background-color 0.5s ;
 }
 `
-
 const QuardContainLink = styled.div`
 width:85vw;
 height:15vw;
@@ -187,7 +186,12 @@ justify-content:space-around;
 
 
 `
-
+const ImgFooter = styled.div`
+width:100%;
+height:25vw;
+display:flex;
+justify-content:center;
+`
 export default class Home extends React.Component{
   render(){
     return(
@@ -238,6 +242,10 @@ export default class Home extends React.Component{
         </Routes>
           
       </Router>
+      <ImgFooter>
+        <img src="https://prefeitura.rio/wp-content/uploads/2019/12/pao-de-acucar.png" alt="Foto animada do rio"/>
+      </ImgFooter>
+      
       </Contain>
       </>
     )
