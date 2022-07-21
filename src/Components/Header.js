@@ -8,9 +8,28 @@ h1{
     font-size:2vw;
     text-align:center;
 }
-
 h2{
     margin-top:1vw;
+}
+@media(max-width: 768px){
+    width:90vw;
+    height:40vh;
+    h1{
+        font-size:4vw;
+    }
+    h2{
+        font-size:2.5vw;  
+    }
+}
+@media(max-width: 375px){
+height:33vh;
+    h1{
+        font-size:5vw;
+    }
+    h2{
+        margin-top:5vw;
+        font-size:4vw;
+    }
 }
 `
 

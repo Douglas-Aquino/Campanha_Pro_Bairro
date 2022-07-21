@@ -51,6 +51,33 @@ ul{
     }
   }
 }
+@media(max-width: 768px){
+  
+  ul{
+    p{
+      width:8vw;
+      height:3vw;
+      font-size:2vw;
+      position: fixed;
+      top:46vw;
+      right:2.5vw;
+    }
+  }
+}
+@media(max-width: 375px){
+  
+  ul{
+    p{
+      width:12vw;
+      height:5vw;
+      font-size:3vw;
+      position: fixed;
+      top:55vw;
+      right:46vw;
+    }
+  }
+}
+
 `
 
 const ContainLink = styled.div`
@@ -72,6 +99,22 @@ img{
 &:hover{
   background-color:#74B238;
   transition:background-color 0.5s ;
+}
+@media(max-width:768px){
+  width:15vw;
+  height:15vw;
+  
+  img{
+    width:10vw;
+  }
+}
+@media(max-width:375px){
+  width:25vw;
+  height:25vw;
+  
+  img{
+    width:20vw;
+  }
 }
 `
 const ContainLinkTow =styled.div`
@@ -95,6 +138,22 @@ img{
   background-color:#DC5865;
   transition:background-color 0.5s ;
 }
+@media(max-width:768px){
+  width:15vw;
+  height:15vw;
+  
+  img{
+    width:13vw;
+  }
+}
+@media(max-width:375px){
+  width:25vw;
+  height:25vw;
+  
+  img{
+    width:20vw;
+  }
+}
 `
 const ContainLinkthree =styled.div`
 width:10vw;
@@ -117,6 +176,22 @@ img{
   background-color:#2BA7F1;
   transition:background-color 0.5s ;
 }
+@media(max-width:768px){
+  width:15vw;
+  height:15vw;
+  
+  img{
+    width:9vw;
+  }
+}
+@media(max-width:375px){
+  width:25vw;
+  height:25vw;
+  
+  img{
+    width:15vw;
+  }
+}
 `
 const ContainLinkFour =styled.div`
 width:10vw;
@@ -138,6 +213,22 @@ img{
   background-color:#894FC0;
   transition:background-color 0.5s ;
 }
+@media(max-width:768px){
+  width:15vw;
+  height:15vw;
+  
+  img{
+    width:15vw;
+  }
+}
+@media(max-width:375px){
+  width:25vw;
+  height:25vw;
+  
+  img{
+    width:25vw;
+  }
+}
 `
 const ContainLinkFive =styled.div`
 width:10vw;
@@ -156,6 +247,22 @@ img{
 &:hover{
   background-color:#EDD664;
   transition:background-color 0.5s ;
+}
+@media(max-width:768px){
+  width:15vw;
+  height:15vw;
+  
+  img{
+    width:13vw;
+  }
+}
+@media(max-width:375px){
+  width:25vw;
+  height:25vw;
+  
+  img{
+    width:20vw;
+  }
 }
 `
 const ContainLinkSix =styled.div`
@@ -176,6 +283,22 @@ img{
   background-color:#AED3B5;
   transition:background-color 0.5s ;
 }
+@media(max-width:768px){
+  width:15vw;
+  height:15vw;
+  
+  img{
+    width:11vw;
+  }
+}
+@media(max-width:375px){
+  width:25vw;
+  height:25vw;
+  
+  img{
+    width:15vw;
+  }
+}
 `
 const QuardContainLink = styled.div`
 width:85vw;
@@ -184,6 +307,14 @@ display:flex;
 align-items:center;
 justify-content:space-around;
 
+@media(max-width:768px){
+  height:35vw;
+  display:flex;
+  flex-wrap: wrap;
+}
+@media(max-width: 375px){
+  height:60vw;
+}
 
 `
 const Animar = keyframes`
@@ -221,6 +352,24 @@ height:25vw;
 display:flex;
 justify-content:center;
 animation: ${Animar} 2s linear  infinite;
+
+@media(max-width:768px){
+  height:20vw;
+  margin:5vw 0;
+
+  
+  img{
+    width:auto;
+  }
+}
+@media(max-width:375px){
+  width:85vw;
+  height:25vw;
+  
+  img{
+    width:100%vw;
+  }
+}
 `
 
 
