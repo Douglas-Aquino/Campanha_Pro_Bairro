@@ -24,6 +24,7 @@ const GlobalStyle = createGlobalStyle`
   margin:0;
   padding:0;
   box-sizing:border-box;
+  font-family: 'Cinzel', serif;
 }
 `
 const Contain = styled.div`
@@ -88,7 +89,7 @@ border-radius:20px;
 
 text-align:center;
 a{
-  font-size:1.3vw;
+  font-size:1.2vw;
   text-decoration:none;
 }
 
@@ -181,7 +182,7 @@ img{
   height:15vw;
   
   img{
-    width:9vw;
+    width:9.5vw;
   }
 }
 @media(max-width:375px){

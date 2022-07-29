@@ -5,6 +5,10 @@ const Contain = styled.div`
 margin-top:5vw;
 width:88vw;
 height:50vw;
+@media(max-width: 375px){
+ height:70vw;
+
+}
 `
 const Intro = styled.div`
 width:100%;
